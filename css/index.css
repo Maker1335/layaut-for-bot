@@ -1,0 +1,187 @@
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(0deg, #17181E, #17181E),
+        radial-gradient(45.21% 91.27% at -13.31% 39.03%, #8A2E21 0%, rgba(69, 43, 20, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 24px;
+}
+
+.buttons button {
+    background: none;
+    color: white;
+}
+
+.registration {
+    border: 0.5px solid #FC6652;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.entry {
+    border: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+h2{
+    font-size: 64px;
+line-height: 72px;
+text-align: center;
+}
+.orange {
+    color: #FC6652;
+}
+
+.firstPage {
+    background: linear-gradient(0deg, #17181E, #17181E),
+        radial-gradient(45.21% 91.27% at -13.31% 39.03%, #8A2E21 0%, rgba(69, 43, 20, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: flex;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.buttons{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+}
+.grey1{
+    color: #B4B4B4;
+    font-size: 24px;
+}
+.grey {
+    color: #B4B4B4;
+    font-size: 18px;
+}
+
+.buttonsSD {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.startNow,
+.detailed {
+    color: white;
+    width: 277px;
+    height: 72px;
+    border-radius: 100px;
+}
+
+.startNow {
+    background-color: #FC6652;
+    border: 0px;
+}
+
+.detailed {
+    background: none;
+    border: 1px solid #FFFFFF;
+}
+
+.videoLessons {
+    display: grid;
+    grid-template-columns: 718px 190px 300px;
+    grid-template-rows: repeat(3, 139px);
+    grid-template-areas:
+        "firstVideoLessons followingVideoTutorials videoDescription"
+        "firstVideoLessons followingVideoTutorials videoDescription"
+        "firstVideoLessons followingVideoTutorials videoDescription"
+        "firstVideoLessons explanation explanation";
+}
+
+.firstVideoLessons {
+    display: grid;
+    grid-area: firstVideoLessons;
+    align-items: center;
+}
+
+.followingVideoTutorials {
+    display: grid;
+    grid-area: followingVideoTutorials;
+    align-items: center;
+
+}
+
+.videoDescription {
+    display: grid;
+    grid-area: videoDescription;
+    align-items: center;
+}
+
+.explanation {
+    display: grid;
+    grid-area: explanation;
+}
+
+#horn {
+    width: 48px;
+    height: 54.58px;
+}
+
+#anyDevice {
+    width: 59px;
+    height: 45.63px;
+}
+
+.thirdPage {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.differencesInTests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 27px;
+    color: #555555;
+}
+.differencesInTests img{
+    width: 100%;
+}
+.BpassTheTest {
+    background-color: none;
+    border: 0px;
+}
+
+.tryTheTest {
+    display: grid;
+    grid-template-rows: repeat(3, 90px);
+    justify-items: start;
+}
